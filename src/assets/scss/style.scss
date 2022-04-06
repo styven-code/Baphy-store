@@ -1,0 +1,50 @@
+.logo {
+  width: 50px;
+}
+
+.main-carousel {
+  & img {
+    min-height: 500px;
+    max-height: 700px;
+    object-fit: cover;
+  }
+}
+.card {
+  width: 270px;
+  cursor: pointer;
+}
+
+.category {
+  max-width: 150px;
+  cursor: pointer;
+  & .photo {
+    width: 150px;
+  }
+}
+
+.editorial img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.bg-okey {
+  background-color: #a3e4d7;
+}
+
+.bg-error {
+  background-color: #fedcdc;
+}
+
+.imagenes {
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .imagenes {
+    width: 300px;
+  }
+}
